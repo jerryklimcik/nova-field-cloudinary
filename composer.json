@@ -1,5 +1,5 @@
 {
-    "name": "silvanite/nova-field-cloudinary",
+    "name": "jerryklimcik/nova-field-cloudinary",
     "description": "A Laravel Nova Image Field with Flysystem Adapter for storing and retrieving media from Cloudinary",
     "keywords": [
         "laravel",
@@ -17,9 +17,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "laravel/framework": ">=5.0.0",
-        "carlosocarvalho/flysystem-cloudinary": "^1.0",
+        "php": ">=8.0",
+        "laravel/framework": "^9.0",
+        "carlosocarvalho/flysystem-cloudinary": "dev-master",
         "davidpiesse/nova-audio": "^0.0.1"
     },
     "require-dev": {
