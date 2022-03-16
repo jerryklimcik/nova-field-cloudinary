@@ -45,7 +45,7 @@ class CloudinaryAdapter extends CloudinaryBaseAdapter
     {
         $path = pathinfo($path)['filename'];
 
-        return parent::write($path, $resource, $config);
+        parent::write($path, $resource, $config);
     }
 
     /**
