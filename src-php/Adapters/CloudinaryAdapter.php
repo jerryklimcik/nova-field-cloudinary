@@ -41,7 +41,7 @@ class CloudinaryAdapter extends CloudinaryBaseAdapter
      *
      * @return array|false false on failure file meta data on success
      */
-    public function write(string $path, string $contents, Config $options)
+    public function write(string $path, string $contents, Config $options): void
     {
         $path = pathinfo($path)['filename'];
 
